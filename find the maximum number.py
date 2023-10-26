@@ -1,4 +1,4 @@
-def maxnum(arr):
+def maxnum(arr): 
     n=len(arr)
     for i in range(n):
         swapped=False
@@ -9,7 +9,7 @@ def maxnum(arr):
         if not swapped:
             break
         
-lst=[64, 34, 25, 12, 22, 11, 90]
+lst=[6,8,3,55,44,33]
 maxnum(lst)
 print('sorted list:',lst)
 print(lst[-1])
